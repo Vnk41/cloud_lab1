@@ -4,11 +4,15 @@
 Docker-Compose (параметры указаны в файле docker-compose.yaml) создается набор контейнеров.
 
 Команды для запуска приложения в Docker:
+
 sudo docker build -t -test .
+
 sudo docker run -dp 8081:8080 test
 
 Команды для Docker-Compose:
+
 sudo docker build
+
 sudo docker-compose up
 
 Полученный результат:
